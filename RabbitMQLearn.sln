@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Consumer", "Fanout.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Producer", "Fanout.Porducer\Fanout.Producer.csproj", "{455AF478-9FF4-4995-B3CD-A4CF3B0434A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Producer", "Topic.Producer\Topic.Producer.csproj", "{DB04214C-E2A4-4CD7-BFFC-9A1DCF5391B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Consumer", "Topic.Consumer\Topic.Consumer.csproj", "{B25C24A3-88CE-473D-AFB2-D7929847FF5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{455AF478-9FF4-4995-B3CD-A4CF3B0434A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{455AF478-9FF4-4995-B3CD-A4CF3B0434A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{455AF478-9FF4-4995-B3CD-A4CF3B0434A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB04214C-E2A4-4CD7-BFFC-9A1DCF5391B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB04214C-E2A4-4CD7-BFFC-9A1DCF5391B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB04214C-E2A4-4CD7-BFFC-9A1DCF5391B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB04214C-E2A4-4CD7-BFFC-9A1DCF5391B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25C24A3-88CE-473D-AFB2-D7929847FF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25C24A3-88CE-473D-AFB2-D7929847FF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25C24A3-88CE-473D-AFB2-D7929847FF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25C24A3-88CE-473D-AFB2-D7929847FF5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
