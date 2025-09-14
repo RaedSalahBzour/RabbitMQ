@@ -19,7 +19,7 @@ consumer.Received += (model, ea) =>
 };
 
 channel.BasicConsume(
-    queue: "q.direct",
+    queue: "qu-notification",
     autoAck: true,
     consumer: consumer
 );
