@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct.Producer", "RabbitMQ.Producer\Direct.Producer.csproj", "{24AD9918-B4E4-4ED4-9614-D46BA976BD40}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Producer", "Header.Producer\Header.Producer.csproj", "{D7440BA2-4C8F-4961-AF24-FF9092D867B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Consumer", "Header.Consumer\Header.Consumer.csproj", "{275968F4-E050-4F0D-88F2-665A1378B9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PisonMessage.Consumer", "PisonMessage.Consumer\PisonMessage.Consumer.csproj", "{9E5F7DD7-7C3E-43E8-A788-F52BF4355201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{275968F4-E050-4F0D-88F2-665A1378B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275968F4-E050-4F0D-88F2-665A1378B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275968F4-E050-4F0D-88F2-665A1378B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5F7DD7-7C3E-43E8-A788-F52BF4355201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5F7DD7-7C3E-43E8-A788-F52BF4355201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5F7DD7-7C3E-43E8-A788-F52BF4355201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5F7DD7-7C3E-43E8-A788-F52BF4355201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
